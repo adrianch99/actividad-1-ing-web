@@ -1,34 +1,47 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="es">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
     <title>formulario</title>
+    
 </head>
 <body>
     <nav>
-        <div>
+        <div class="nav-main">
             <div>
                 <img src="logo2.jpg" alt="Logo de la tienda" width="300" height="100">
             </div>
-            <ul>
-                <li><a href="#">products</a></li>
-                <li><a href="#">car</a></li>
-                <li><a href="#">login</a></li>
-                <li><a href="formulario.html">new product</a></li>
+            <ul class="menu">
+                <li>
+                    <a href="">products</a>
+                </li>
+                <li>
+                    <a href="">car</a>
+                </li>
+                <li>
+                    <a href="">login</a>
+                </li>
+                <li>
+                    <a href="formulario.html">new product</a>
+                </li>
             </ul>
-    </div>
+        </div>
     </nav>
     
     <form>
-
-        <label for="fname">Name:</label>
-        <input type="text" id="fname" name="fname">
-        <label for="fprace">Prace:</label>
-        <input type="number" id="fprace" name="fprace">
-        <label for="finv">Inventory:</label>
-        <input type="number" id="finv" name="finv">
-        <button>Create Product</button>
+        <label for="Nombre">Nombre :</label>
+        <input class="input" name="text" type="text">
+        <label for="Product">Product :</label>
+        <input class="input" name="number" type="number">
+        <label for="Inventory">Inventory :</label>
+        <input class="input" name="number" type="number">
+        <button>
+            <span class="transition"></span>
+            <span class="gradient"></span>
+            <span class="label">Crate Product</span>
+          </button>
 
     </form> 
       
