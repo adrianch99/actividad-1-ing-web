@@ -30,21 +30,22 @@
         </div>
     </nav>
     
-    <form>
+    <form id="productForm">
         <h1>New Product</h1>
         <label for="Name">Name :</label>
-        <input class="input" name="text" type="text">
+        <input class="input" name="text" type="text" required>
         <label for="Prace">Price :</label>
-        <input class="input" name="number" type="number">
+        <input class="input" name="number" type="number" required>
         <label for="Inventory">Inventory :</label>
-        <input class="input" name="number" type="number">
+        <input class="input" name="number" type="number" required>
         <button>
             <span class="transition"></span>
             <span class="gradient"></span>
-            <span class="label">Crate Product</span>
-          </button>
+            <span class="label" id="createProductBtn">Create Product</span>
+        </button>
 
     </form> 
+    <script src="index.js" onload="scriptLoaded()" onerror="scriptError()"></script>
       
 </body>
 </html>
